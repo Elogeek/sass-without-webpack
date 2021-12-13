@@ -1,0 +1,32 @@
+$color: orange;
+$border: 2px solid black;
+$size_10: 10px;
+$center: center;
+
+body {
+  $color: $color;
+
+  .text {
+    display: flex;
+    justify-content: $center;
+    align-items: $center;
+    padding: 2rem;
+    $color: white;
+
+  }
+
+  span {
+    background: gainsboro;
+    $size_10: 30px;
+    $color: turquoise;
+    $border: $border;
+    line-height: 4;
+  }
+
+  hr {
+    $size_10: 50px;
+  }
+
+}
+
+
